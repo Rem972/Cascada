@@ -1,0 +1,19 @@
+1/ HOW TO COMPILE THE PROJECT
+To compile the project, you have to use the "make" command.
+Just type "make" when you are in the root directory of the project.
+
+2/ HOW TO USE THE PROJECT
+Once the project is compiled, you can run the project using:
+./main <path> <mode>
+Where <path> is the path of the image you want to test and
+<mode> is the mode of the command, more details below.
+Modes:
+    0: Set all the pixels of the image to 1
+    1: Do nothing else
+
+It will display the integral image matrix of the original image
+and will also generate a file where the results of the Haar
+features are written.
+
+After that, you can use the "make clean" command to remove all
+the files resulting from the compilation.
